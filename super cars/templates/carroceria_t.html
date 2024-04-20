@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carroceria</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+    <link rel="stylesheet" href="{% static "carroceria_1.css" %}">
+
+</head>
+<div>
+    <a href="{% url "Toyota" %}" class="Atras" >
+        <img src="{% static "Imagenes/Atras.png" %}" alt="Atras">
+    </a>
+</div>
+<body>
+    <body>
+        <h1 class="Carroceria" >Carroceria</h1>
+        <img src="{% static "Imagenes/chacis_t.jpg" %}" class="Img_Carrocerias">
+    
+        <h1 class="Texto_Carroceria">Ficha Tecnica</h1>
+         <img src="{% static "Imagenes/chacis_toyota.png" %}" class="Img_Carrocerias">  
+</body>
+</html>

@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "Nissan.css" %}">
+    <title>Nissan</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+</head>
+
+
+<div>
+    <a href="{% url "Inicio" %}" class="boton_Inicio" >Inicio</a>
+</div>
+
+<body>
+    <h1 class="Nissan">Nissan</h1>
+    <img src="{% static "imagenes/nissan.jpg" %}" class="Carrito">
+    <p class="Texto_Nissan">
+      Cuando se trata de autos deportivos japoneses, pocos modelos son tan icónicos como el Nissan Skyline GT-R. Nacido a finales de la década de 1990 como una versión de alto rendimiento del humilde sedán Skyline de Nissan, el GT-R rápidamente ganó reputación por su velocidad, manejo y tecnología. A lo largo de los años, el GT-R evolucionó a lo largo de varias generaciones, cada una aprovechando las fortalezas de su predecesor y superando los límites de lo que podía hacer un automóvil deportivo.
+        Estoy seguro que no sabías esto, el Skyline original no fue diseñado para las carreras,
+         originalmente estaba pensado como un modelo familiar de tamaño mediano y no mucho mas, 
+         pero en 1969 lanzaron el modelo de alto rendimiento, el GTR,
+          eso fue todo, el R34 ganó 29 carreras consecutivas aló largo de 4 temporadas en la categoría "group Eit" por supuesto es todo un mini impresionante le valió el sobrenombre de "Godzilla
+    </p>
+    <section class="cards contenedor">
+        <h2 class="titulo">Catacteristicas</h2>
+        <div class="content-cards">
+          <article class="card">
+            <h3>Motor</h3>
+            <p> Motor RB26DETT </p>
+            <a href="{% url "motor_nissan" %}" class="cta">Ver más</a>
+          </article>
+    
+          <article class="card">
+            <h3>Carrocería</h3>
+            <p>Mira la carroceria Y su ficha tecnica </p>
+            <a href="{% url "carroceria_nissan" %}" class="cta">Ver más</a>
+          </article>
+          <article class="card">
+            <img src="imagenes/mazda rx-7.jpg" alt="">
+            <h3>Sonido</h3>
+            <p>Escucha el sonido de este hermoso coche</p>
+            <a href="https://www.youtube.com/watch?v=D3djVW3dSGA"  target="_blank"  class="cta">Ver más</a>
+          </article>
+
+</body>
+</html>

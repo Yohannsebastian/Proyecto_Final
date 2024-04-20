@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carroceria</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+    <link rel="stylesheet" href="{% static "carroceria_1.css" %}">
+
+</head>
+<div>
+    <a href="{% url "Porsche" %}" class="Atras" >
+        <img src="{% static "Imagenes/Atras.png" %}" alt="Atras">
+    </a>
+</div>
+<body>
+    <body>
+        <h1 class="Carroceria" >Carroceria</h1>
+        <img src="{% static "imagenes/Carroceria_1.jpg" %}" class="Img_Carrocerias">
+    
+        <h1 class="Texto_Carroceria">Ficha Tecnica</h1>
+           <p class="Texto_Carroceria">Con el paso de los tiempos la carroceria o el chacis del Porsche 911 a evolucioando para tener una mejor velocidad final </p>
+         <img src="{% static "Imagenes/Chachis.png" %}" class="Img_Carrocerias">  
+</body>
+</html>
+
+

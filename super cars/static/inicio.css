@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero{
+    background-image: linear-gradient(120deg, rgb(54, 53, 53) 0%, rgba(33, 34, 34, 0.863) 100%), url("../img/header.jpg");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.textos-hero{
+    height: 500px;
+    color: rgb(229, 166, 94);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textos-hero h1{
+    font-size: 60px;
+}
+
+.textos-hero p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Estilos generales */
+
+.contenedor,
+.wave-contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 50px 0;
+
+}
+
+.titulo{
+    font-weight: 300;
+    font-size: 35px;
+    text-align:center;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo.left{
+    text-align: left;
+}
+
+.titulo.right{
+    text-align: right;
+}
+
+/* Section */
+
+.website{
+    display: flex;
+    justify-content: space-between;
+}
+
+.website img{
+    width: 48%;
+}
+
+.website .contenedor-textos-main{
+    width: 40%;
+}
+
+.parrafo{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #202020 0%, #272727 99%, #fad0c4 100%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+/* Info */
+
+.info{
+    background: #0c0f0f;
+    color: #fff;
+
+}
+
+
+/* Cards */
+
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card p{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* galeria */
+
+.galeria{
+    background: #f2f2f2;
+}
+
+.galeria-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden; 
+}
+.galeria-cont>img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* info2 */
+
+.last-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.last-section img{
+    width: 48%;
+}
+
+.last-section .contenedor-textos-main{
+    width: 40%;
+}
+
+
+/* footer */
+footer{
+    background: rgb(33, 34, 34);
+    color: #ffffff;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ .boton-registro {
+    position: absolute;
+    bottom: 37rem; /* Puedes ajustar la distancia desde la parte inferior */
+    right: 10px;
+    background-color: rgb(40, 45, 51);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+  
+.boton-registro:hover {
+    background-color: #000000;
+}
+
+.gtr{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    width: 300px; 
+    display: block; 
+    margin-left: 0.20rem; 
+    margin-right: auto;
+}
+.Whatsapp, .Instagram{
+    width: 20px;
+
+}
+.Contactame{
+    text-align: center;
+}
+
+.contenedor_footer {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}

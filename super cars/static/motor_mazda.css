@@ -1,0 +1,18 @@
+.Motor{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+.Img_Motor{
+    border-radius: 5px;
+    width: 40rem;
+    height: auto;
+    width: 45rem; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.Texto_motor{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}

@@ -1,0 +1,36 @@
+
+.Registro{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+form {
+    width: 400px; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    padding: 20px; /* Espaciado interno del formulario */
+    background-color: #fffefe; /* Color de fondo del formulario */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    display: block; /* Mostrar cada etiqueta en una línea */
+    margin-bottom: 20px; /* Espacio entre las etiquetas */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espacio inferior */
+    border: 1px solid #000000; /* Borde del campo */
+    border-radius: 3px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el padding y borde en el ancho */
+}
+
+

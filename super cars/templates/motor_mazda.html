@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+    <link rel="stylesheet" href="{% static "motor_mazda.css" %}">
+
+</head>
+<div>
+    <a href="{% url "Mazda" %}" class="Atras" >
+        <img src="{% static "Imagenes/Atras.png" %}" alt="Atras">
+    </a>
+</div>
+
+<body>
+    <h1 class="Motor" >Motor</h1>
+    <img src="{% static "imagenes/motor_mazda.jpg" %}" class"Img_Motor">
+     
+    <p class="Texto_motor">
+        Gracias a la disposición central delantera del motor, el vehículo mejoró
+        la distribución del peso y el manejo. En su debut, el RX-7 disponía del
+         motor 12A de doble rotor de 1,146 cm3 y más tarde apareció una versión 
+         turbo de 160 hp para Japón, mientras que América del Norte obtuvo un motor 
+         13B ligeramente más grande equipado con inyección directa de combustible.
+         <img src="{% static "imagenes/ficha_tecnica_mazda.png" %}" alt="">
+    </p>
+           
+    
+</header>
+</body>
+</html>

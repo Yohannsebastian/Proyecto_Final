@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+    <link rel="stylesheet" href="{% static "Motor_1.css" %}">
+
+</head>
+<div>
+    <a href="{% url "Nissan" %}" class="Atras" >
+        <img src="{% static "Imagenes/Atras.png" %}" alt="Atras">
+    </a>
+</div>
+
+<body>
+    <h1 class="Motor" >Motor</h1>
+    <img src="{% static "imagenes/Motor_nissan.png" %}" class="Img_Motor">
+
+    <p class="Texto_Motor">
+        El motor del Nissan Skyline GT-R R34 es uno de los aspectos más impresionantes del coche.
+         Conocido como RB26DETT, es un motor de seis litros y doble turbocompresor 2.6 que produce
+          alrededor de 280 caballos de fuerza en su versión original. Si bien esto puede no parecer
+           mucho para los estándares actuales, vale la pena recordar que el R34 GT-R fue diseñado y
+            construido a finales de la década de 1960, cuando los autos de alto rendimiento no eran 
+            tan poderosos como lo son hoy.
+            A pesar de su potencia relativamente modesta, el RB26DETT es una maravilla de la ingeniería.
+             Cuenta con una sofisticada configuración DOHC (doble árbol de levas en cabeza) con cuatro válvulas
+              por cilindro, junto con un cigüeñal y pistones forjados para mayor durabilidad. Los turbos gemelos 
+              también son una característica clave, ya que brindan un impulso casi instantáneo y ayudan al motor
+               a producir una banda de potencia amplia y lineal.
+               <p>
+    <h1 class="Ficha">Ficha</h1>
+     <img src="{% static "imagenes/detalles_motor_n.png" %}" class="detalles_motor_n">
+
+          </article>
+
+               
+    
+</header>
+</body>
+</html>

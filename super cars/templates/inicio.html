@@ -1,0 +1,118 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AutoAvenue</title>
+  <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+  <link rel="stylesheet" href="{% static "inicio.css" %}">
+  
+</head>
+
+<body>
+  <header class="hero">
+    <div class="textos-hero">
+      <h1>Bienvenidos al mejor sitio de Autos</h1>
+    </div>
+    <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #ffffff;"></path>
+      </svg></div>
+  </header>
+  <header>  
+    <div class="container">
+        <ul>
+
+          <li><a href="{% url "Formulario" %}"class="boton-registro">Sugerencia</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="wave-contenedor website">
+    <img src="{% static "imagenes/porsche.jpg" %}" class="gtr">
+    <div class="contenedor-textos-main">
+      <h2 class="titulo left">Porsche </h2>
+      <p class="parrafo">El Porsche 911 es un automóvil deportivo de lujo producido por el fabricante alemán Porsche AG, desde 1964. A través de los años, ha pasado por varias regeneraciones. De todas formas, muchas de las características del modelo original se conservan</p>
+      <a href="Carro/Porsche" class="cta">Ver mas </a>
+    </div>
+  </section>
+
+  <section class="info">
+    <div class="contenedor">
+    </div>
+  </section>
+
+  <section class="cards contenedor">
+    <h2 class="titulo">Leyendas</h2>
+    <div class="content-cards">
+      <article class="card">
+        <h3>NISSAN SKYLINE R34 </h3>
+        <img {% static "imagenes/nissan.jpg" %}"">
+        <p>Es un automóvil de turismo producido por el fabricante japonés Nissan, con un motor delantero montado longitudinalmente.</p>
+        <a href="Carro/Nissan" class="cta">Ver más</a>
+      </article>
+
+      <article class="card">
+        <h3>TOYOTA SUPRA MK4</h3>
+        <p>Es un automóvil deportivo hatchback de 3 puertas, con motor delantero montado longitudinalmente y de tracción trasera, producido por el fabricante japonés Toyota desde 1978.</p>
+        <a href="Carro/Toyota" class="cta">Ver más</a>
+      </article>
+      <article class="card">
+        <img src="imagenes/mazda rx-7.jpg" alt="">
+        <h3>MAZDA RX-7</h3>
+        <p>Es un automóvil deportivo producido por el fabricante japonés Mazda Motor Corporation entre los años 1978 y 2002</p>
+        <a href="Carro/Mazda" class="cta">Ver más</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="galeria">
+    <div class="contenedor">
+      <h2 class="titulo">Galeria</h2>
+      <article class="galeria-cont">
+        <img src="{% static "imagenes/mercedes.jpg" %}" class="Mercedes">
+        <img src="{% static "imagenes/mazda rx-7.jpg" %}" class="Mazda">
+        <img src="{% static "imagenes/Supra.jpg" %}" class="supra">
+        <img src="{% static "imagenes/McLaren 720s.jpg" %}" class="supra">
+        <img src="{% static "imagenes/mustang.jpg" %}" class="supra">
+        <img src="{% static "imagenes/Nasty gtr.jpg" %}" class="supra">
+        <img src="{% static "imagenes/dodge cha.jpg" %}" class="supra">
+        <img src="{% static "imagenes/bugaty.jpg" %}" class="supra">
+        <img src="{% static "imagenes/audi.jpg" %}" class="supra">
+      </section>
+      </article>
+    </div>
+  </section>
+      <img src="img/ilustracion.svg" alt="">
+    </div>
+
+    <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: rgb(33, 34, 34);"></path>
+      </svg></div>
+  </section>
+
+  <footer id="contacto">
+    <h1 class="Contactame">Contáctame </h1>
+    <div class="contenedor_footer">
+      <a href="https://wa.link/y2shpq" target="_blank">
+        <img src="{% static "imagenes/whatsapp.png" %}" class="Whatsapp" alt="Whatsapp">
+      </a>
+      <a href="https://www.instagram.com/yoha.nnsebastian?igsh=MWphOHVjY3N0bTVoaQ==" target="_blank" >
+        <img src="{% static "imagenes/instagram.png" %}"  class="Instagram" alt="Instragram">
+      </a>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

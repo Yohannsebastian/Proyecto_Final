@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+    <link rel="stylesheet" href="{% static "Toyota.css" %}">
+</head>
+<div>
+    <a href="{% url "Inicio" %}" class="boton_Inicio" >Inicio</a>
+</div>
+<body>
+    <h1 class="Toyota" > Toyota</h1>
+    <img src="{% static "imagenes/Supra.jpg" %}" class="Carro">
+    <p class="Texto_Toyota">
+        El toyota supra mas que un auto es una leyenda desde su nacimiento en 1978 ha sido el sueño de muchos aficionados a la velocidad la cuarta generacion fue la màs iconica, unica y exitosa, con un motor biturbo de 320 caballos y una velocidad maxima de 280 kilometros por hora tiene bajo el cofre el mejor motor de la epoca
+        el famocisimo 2JZ, es un motor muy versatil y potenciable que se adapta a diferentes tipos de coches y de conduccion
+    </p>
+
+    <section class="cards contenedor">
+        <h2 class="titulo">Catacteristicas</h2>
+        <div class="content-cards">
+          <article class="card">
+            <h3>Motor</h3>
+            <p>2JZ-GTE de seis cilindros en línea y 3.0 litros biturbo </p>
+            <a href="{% url "motor_T" %}" class="cta">Ver más</a>
+          </article>
+    
+          <article class="card">
+            <h3>Carrocería</h3>
+            <p>Encuntra lo relacionado con la correceria y mas </p>
+            <a href="{% url "carroceria_t" %}" class="cta">Ver más</a>
+          </article>
+          <article class="card">
+            <img src="imagenes/mazda rx-7.jpg" alt="">
+            <h3>Sonido</h3>
+            <p>Escucha el sonido de este hermoso coche</p>
+            <a href="https://www.youtube.com/shorts/syY0VEDnR5c"  target="_blank"  class="cta">Ver más</a>
+          </article>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+        
+</html>

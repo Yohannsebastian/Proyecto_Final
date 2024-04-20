@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "Nissan.css" %}">
+    <title>Mazda RX-7</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+</head>
+
+
+<div>
+    <a href="{% url "Inicio" %}" class="boton_Inicio" >Inicio</a>
+</div>
+
+<body>
+    <h1 class="Nissan">Mazda RX-7</h1>
+    <img src="{% static "imagenes/mazda rx-7.jpg" %}" class="Carrito_1">
+    <p class="Texto_Nissan">
+        Heredero del precioso coupé Mazda Cosmo, el Mazda RX7 de la última generación era
+         un verdadero deportivo de los de la época dorada de los coupés japoneses: ligero,
+          rápido, preciso y con una tecnología diferenciadora. El Subaru SVX presumía de su 
+          tracción total y su motor bóxer de 6 cilindros; el Mitsubishi 3000 GT de su aerodinámica,
+           suspensión, dirección y tracción total; el Honda NSX de su motor VTEC… Todos los coupés
+            japoneses destacaban en algo, y el Mazda RX7 se salía del camino trillado gracias a su
+             portentoso motor Wankel sobrealimentado A lo largo de sus tres generaciones, el Mazda RX-7 
+             es el coche con motor rotativo más vendido del mundo, con más de un millón de unidades comercializadas,
+              todo un logro si tenemos en cuenta que se trata de un mercado muy minoritario.
+    </p>
+    <section class="cards contenedor">
+        <h2 class="titulo">Catacteristicas</h2>
+        <div class="content-cards">
+          <article class="card">
+            <h3>Motor</h3>
+            <p> Wankel de 2 rotores de 1146 a 1308 cm³ (1,1 a 1,3 litros) </p>
+            <a href="{% url "motor_mazda" %}" class="cta">Ver más</a>
+          </article>
+    
+          <article class="card">
+            <h3>Carrocería</h3>
+            <p>Mira la carroceria Y su ficha tecnica </p>
+            <a href="{% url "carroceria_M" %}" class="cta">Ver más</a>
+          </article>
+          <article class="card">
+            <img src="imagenes/mazda rx-7.jpg" alt="">
+            <h3>Sonido</h3>
+            <p>Escucha el sonido de este hermoso coche</p>
+            <a href="https://www.youtube.com/watch?v=r-MSIawJSJM"  target="_blank"  class="cta">Ver más</a>
+          </article>
+
+</body>
+</html>

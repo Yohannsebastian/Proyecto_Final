@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+    <link rel="stylesheet" href="{% static "styles.css" %}">
+</head>
+<div>
+    <a href="{% url "Inicio" %}" class="Atras" >
+        <img src="{% static "Imagenes/Atras.png" %}" alt="Atras">
+    </a>
+</div>
+<body>
+    <h1 class="Registro" >Dejanos Una Sugerencia</h1>
+    <form action="{% url 'Formulario' %}" method="post" class="formulario">
+    <hr>
+    {% csrf_token %}
+    {{formulario}}
+
+    <button type="submit">Enviar</button>
+   </div>
+
+   <script src="{% static "validacion.js" %}" defer></script>
+
+</body>
+</html>

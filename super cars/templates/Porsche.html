@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+    <link rel="stylesheet" href="{% static "Porsche.css" %}">
+
+</head>
+<div>
+    <a href="{% url "Inicio" %}" class="boton_Inicio" >Inicio</a>
+</div>
+
+<body>
+    <h1 class="Porsches" >Porsche</h1>
+    <img src="{% static "imagenes/911.jpg" %}" class="Carro">
+
+    <p class="Texto_Porsche">
+        El Porsche 911,es una joya de la ingeniería desde 1963 va más allá de ser un auto.
+        Es un ícono que fusiona elegancia y emoción en cada detalle,con su motor bóxer trasero para un manejo ágil y su diseño distintivo con faros redondos es reconocible al instante, 
+        ya sea en las versiones carrerao los potentes GT3,
+        el 911 es la mezcla perfecta de lujo y deportividad ofreciendo una experiencia de conducción única.Inicialmente se llamó Porsche 901,
+        sin embargo, Peugeot reclamó los derechos sobre todos los números de tres dígitos con un cero en el medio,lo que provocó una disputa legal y llegó a Porsche a cambiar el nombre al 911 marcando así un hito significativo en su legado.
+        En pocas palabras el 911 no es simplemente un auto, es una expresión de la pasión por la conducción y un ícono perdurable en la historia del automovilismo
+
+        <section class="cards contenedor">
+            <h2 class="titulo">Catacteristicas</h2>
+            <div class="content-cards">
+              <article class="card">
+                <h3>Motor</h3>
+                <p>ENCUNTRA LAS CARECTERISTICAS DEL MOTOR Y SU CILINDRADA </p>
+                <a href="{% url "motor_porsche" %}" class="cta">Ver más</a>
+              </article>
+        
+              <article class="card">
+                <h3>Carrocería</h3>
+                <p>Encuntra lo relacionado con la correceria y mas </p>
+                <a href="{% url "Carroceria_1" %}" class="cta">Ver más</a>
+              </article>
+              <article class="card">
+                <img src="imagenes/mazda rx-7.jpg" alt="">
+                <h3>Sonido</h3>
+                <p>Escucha el sonido de este hermoso coche</p>
+                <a href="https://www.youtube.com/watch?v=VtIxi1XqxHE"  target="_blank"  class="cta">Ver más</a>
+              </article>
+            </div>
+          </section>
+    
+</header>
+</body>
+</html>

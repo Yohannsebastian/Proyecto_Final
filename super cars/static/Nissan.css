@@ -1,0 +1,138 @@
+.Nissan{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Carrito{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    width: 300px; /* Ancho deseado de la imagen */
+    display: block; /* Cambia el elemento a un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+.Texto_Nissan{
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:19px ;
+}
+.boton_Inicio {
+    position: absolute;
+    bottom: 37rem; /* Puedes ajustar la distancia desde la parte inferior */
+    right: 1rem;
+    background-color: rgb(40, 45, 51);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    
+}
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #202020 0%, #272727 99%, #fad0c4 100%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card p{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Texto_Motor{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.contenedor,
+.wave-contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 50px 0;
+}
+
+.titulo{
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo.left{
+    text-align: left;
+}
+
+.titulo.right{
+    text-align: right;
+}
+
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card p{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Carrito_1{
+    border-radius: 10px;
+    width: 300rem;
+    width: 40rem; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}

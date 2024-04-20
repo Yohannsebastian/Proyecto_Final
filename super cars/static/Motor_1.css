@@ -1,0 +1,56 @@
+.Motor{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Img_Motor{
+    border-radius: 5px;
+    width: 40rem;
+    height: auto;
+    width: 45rem; /* Ancho deseado de la imagen */
+    display: block; /* Cambia el elemento a un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+.Texto_Motor{
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:19px ;
+}
+.boton_Inicio {
+    position: absolute;
+    bottom: 36rem; /* Puedes ajustar la distancia desde la parte inferior */
+    right: 1rem;
+    background-color: rgb(40, 45, 51);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    
+}
+.Atras{
+    width: 10px;
+}
+
+.Ficha{
+    text-align: center;
+}
+.detalles_motor_n{
+    border-radius: 5px;
+    height: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.motor_mazda{
+    width: 40rem;
+    height: auto;
+    width: 45rem; /* Ancho deseado de la imagen */
+    display: block; /* Cambia el elemento a un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}

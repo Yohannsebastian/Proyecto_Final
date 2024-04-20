@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor</title>
+    <link rel="icon" type="imagenes/jpg" href="{% static "../static/imagenes/logo.jpg" %}">
+    <link rel="stylesheet" href="{% static "Motor_1.css" %}">
+
+</head>
+<div>
+    <a href="{% url "Toyota" %}" class="Atras" >
+        <img src="{% static "Imagenes/Atras.png" %}" alt="Atras">
+    </a>
+</div>
+
+<body>
+    <h1 class="Motor" >Motor</h1>
+    <img src="{% static "imagenes/motor_supra.jpg" %}" class="Img_Motor">
+
+    <p class="Texto_Motor">
+        El famoso motor 2JZ-GTE de seis cilindros en línea y 3.0 litros biturbo.
+        Desarrolla una potencia de 330 CV y un par motor de 440 Nm, puede completar el 0 a 100 
+         km/h en 6,0 segundos y registra una velocidad máxima de 250 km/h. Estas cifras no están 
+         nada mal, incluso para estar equipado con la menos deseada caja de cambios automática.
+          Los modelos más cotizados son los que cuentan con la transmisión manual, pero dado el 
+          estado, el uso y el poco kilometraje de esta unidad matriculada en Países Bajos, seguro 
+          que no es barato.
+        <h1 class="Ficha">Ficha Tecnica</h1>
+        <img src="{% static "imagenes/motor_toyota.png" %}" class="detalles_motor_n">
+          <img src="{% static "imagenes/trasmicion_toyota.png" %}" class="detalles_motor_n">
+
+          </article>
+
+                
+    
+</header>
+</body>
+</html>
